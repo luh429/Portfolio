@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-image: url(images/background.png);
+    background-color: rgb(42, 42, 42);
+}
+
+/* PAGE HEADER */
+.pageHeader{
+
+}
+
+/* PAGE HEADER: page titles */
+.pageTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0;
+    background-color: rgb(125, 125, 125);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    width: 100%;
+    display: inline-flex;
+}
+/* NAVBAR: navbar buttons in each state */
+.navButton:link, .navButton:visited{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(80, 80, 80, 0.65);
+    color: white;
+    text-decoration: none;
+}
+.navButton:hover{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(42, 42, 42, 0);
+    color: white;
+    text-decoration: none;
+}
+.navButton:active{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(42, 42, 42, 0);
+    color: black;
+    text-decoration: none;
+}
+.fill{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    background-color: rgb(80, 80, 80, 0.65);
+}
+
+
+
+
+div.default{
+    margin: 3%;
+    background-color: rgba(80, 80, 80, 0.65);
+    color: white;
+}
+h1.default{
+    padding: 1.5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.default{
+    padding: 1.5%;
+    color: white;
+}
+
+
+
+/* CONTACT PAGE */
+
+
+
+
+
+/* ABOUT ME PAGE */
+.profilePic{
+    width: 15%;
+    margin: 1.5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+#downloadResume:link, #downloadResume:hover, #downloadResume:active{
+    padding: 1.5%;
+    color: blue;
+}
+#downloadResume:visited{
+    padding: 1.5%;
+    color:rgb(164, 106, 219);
+}
