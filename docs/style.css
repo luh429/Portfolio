@@ -102,3 +102,15 @@ p.default{
     padding: 1.5%;
     color:rgb(164, 106, 219);
 }
+
+/* GALLEY PAGE */
+.gallery_image{
+    margin: 1.5%;
+    width: 30%;
+}
+.reels{
+    margin: 1.5%;
+    width: 30%
+}
+
+/* BLOG POSTS PAGE */
